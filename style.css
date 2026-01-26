@@ -12,17 +12,13 @@
     background-color: black;
 }
 
-ul{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-ul .img{
+.img{
     width: 40px;
     height: 40px;
     border-radius: 10px;
 }
 
-ul p {
+p {
     color: white;
     text-align: center;
 }
