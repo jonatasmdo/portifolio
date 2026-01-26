@@ -6,7 +6,10 @@
 }
 
 .container{
-    background-color: whitesmoke;
+    width: 30%;
+    margin: 20px;
+    height: 110%;
+    background-color: black;
 }
 
 ul{
@@ -14,7 +17,12 @@ ul{
 }
 
 ul .img{
-    width: 220px;
-    height: 220px;
+    width: 40px;
+    height: 40px;
     border-radius: 6px;
+}
+
+ul p {
+    color: white;
+    text-align: center;
 }
