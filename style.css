@@ -19,10 +19,15 @@ ul{
 ul .img{
     width: 40px;
     height: 40px;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 ul p {
     color: white;
+    text-align: center;
+}
+
+.right{
+    float: right;
     text-align: center;
 }
