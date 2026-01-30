@@ -42,3 +42,23 @@ ul{
    3. MAIN SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
+    div h1{
+        color: black;
+        text-align: center;
+    }
+
+      /* †††††††††††††††††††††††††††††††††††††††††
+   4. FOOTER SECTION
+   ††††††††††††††††††††††††††††††††††††††††† */
+
+   footer{
+    width: 100%;
+    display: flex;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    padding: 20px 15px;
+    align-items: center;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
