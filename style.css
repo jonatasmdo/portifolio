@@ -19,6 +19,26 @@ header{
 }
 
 h1{
+    color: white;
     font-size: 50px;
     font-weight: bold;
 }
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding: 20px 15px;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
+ul{
+    color: white;
+}
+
+   /* †††††††††††††††††††††††††††††††††††††††††
+   3. MAIN SECTION
+   ††††††††††††††††††††††††††††††††††††††††† */
+
