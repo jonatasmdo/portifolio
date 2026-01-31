@@ -43,6 +43,25 @@ ul{
     color: white;
 }
 
+button{
+    border: none;
+    height: auto;
+    color: white;
+    padding: 8px 36px;
+    border-radius: 8px;
+    background-color: #3882F6 ;
+    font-family: Roboto, sans-serif;
+}
+
+ul p{
+    float: inline-end;
+    justify-content: space-between;
+}
+
+.test{
+    color: white;
+}
+
    /* †††††††††††††††††††††††††††††††††††††††††
    3. MAIN SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
@@ -50,17 +69,14 @@ ul{
     div .title{
         color: black;
         text-align: center;
-    }
-
-    h2{
-        text-align: center;
         justify-content: space-between;
     }
 
     .container{
         border-radius: 6px;
-        background-color: white;
         border: 5px solid #3882F6;
+        background-color: whitesmoke;
+        justify-content: space-around;
     }
 
 
