@@ -3,12 +3,17 @@
    ††††††††††††††††††††††††††††††††††††††††† */
 
 body{
-    margin: 0;
+   /*margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
+    flex-direction: column; */
+    display: flex;
+    margin-top: -5px;
+    align-content: center;
     flex-direction: column;
-}
+    justify-content: space-between;
+}    
 
    /* †††††††††††††††††††††††††††††††††††††††††
    2. HEADER SECTION
@@ -27,9 +32,9 @@ h1{
 nav{
     width: 100%;
     display: flex;
+    padding: 20px 15px;
     align-items: center;
     padding-bottom: 50px;
-    padding: 20px 15px;
     background-color: #1f2937;
     justify-content: space-between;
 }
@@ -52,8 +57,24 @@ ul{
         justify-content: space-between;
     }
 
+    .container{
+        border-radius: 6px;
+        background-color: white;
+        border: 5px solid #3882F6;
+    }
+
+
     /* †††††††††††††††††††††††††††††††††††††††††
-   4. FOOTER SECTION
+   4. QUOTE SECTION
+   ††††††††††††††††††††††††††††††††††††††††† */
+
+   .quoter{
+    font-size: 10px;
+    background-color: #E5E7EB;
+   }
+
+    /* †††††††††††††††††††††††††††††††††††††††††
+   5. FOOTER SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
    footer{
