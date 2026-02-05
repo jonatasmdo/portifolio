@@ -14,6 +14,7 @@ body{
     align-content: center;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Poppins, sans-serif;
 }    
 
    /* †††††††††††††††††††††††††††††††††††††††††
@@ -24,7 +25,7 @@ header{
     display: flex;
 }
 
-h1{
+div h1 .logo{
     color: white;
     font-size: 50px;
     font-weight: bold;
@@ -40,6 +41,12 @@ nav{
     justify-content: space-between;
 }
 
+.nav-links{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
 ul{
     color: white;
 }
@@ -51,7 +58,6 @@ button{
     padding: 8px 36px;
     border-radius: 8px;
     background-color: #3882F6 ;
-    font-family: Roboto, sans-serif;
 }
 
 ul p{
@@ -64,9 +70,13 @@ ul p{
 }
 
 .img{
-    float: right;
+    width: 100%; 
+    height: auto;      
+    border-radius: 10px;
+    overflow: clip;
     margin-top: 15px;
     justify-content: space-between;
+    overflow-clip-margin: content-box;
 }
 
    /* †††††††††††††††††††††††††††††††††††††††††
