@@ -117,23 +117,60 @@ ul p{
    4. QUOTE SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
+
+    .section{
+        height: 20vh;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+   }
+
+   h2{
+       display: flex;
+       margin-left: 10px;
+       margin-right: 10px;
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+   }
+
    .quoter{
-    font-size: 10px;
-    background-color: #E5E7EB;
+        font-size: 10px;
+        background-color: #E5E7EB;
+   }
+
+
+    /* †††††††††††††††††††††††††††††††††††††††††
+   5. BUTTON SECTION
+   ††††††††††††††††††††††††††††††††††††††††† */
+
+   .section2{
+        height: 40vh;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+   }
+
+   .space{
+       display: flex;
+       color: white;
+       align-items: center;
+       border-radius: 20px;
+       justify-content: center;
    }
 
     /* †††††††††††††††††††††††††††††††††††††††††
-   5. FOOTER SECTION
+   6. FOOTER SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
    footer{
-    width: 100%;
-    display: flex;
-    color: white;
-    padding-top: 50px;
-    text-align: center;
-    padding: 20px 15px;
-    align-items: center;
-    background-color: #1f2937;
-    justify-content: space-between;
-}
+     width: 100%;
+     display: flex;
+     color: white;
+     padding-top: 50px;
+     text-align: center;
+     padding: 20px 15px;
+     align-items: center;
+     background-color: #1f2937;
+     justify-content: space-between;
+  }
