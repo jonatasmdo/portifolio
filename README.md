@@ -1,3 +1,3 @@
 # portifólio
 
-# Aqui estarei subindo os meus projetos como DEV.
+# Primeira página web, usarei para construir o meu portifólio.
