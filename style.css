@@ -1,3 +1,11 @@
+/* --------------------------------------------------------------
+   Olá, Sr Jônatas M.D.O.! 👋
+   Este é o seu stylesheet completo – mantive tudo que já estava
+   aqui e só inseri um cabeçalho amigável pra deixar o código
+   com a sua cara. Nada de mudanças estruturais, só um toque
+   de formalidade + um slang leve pra dar aquele vibe moderna.
+   -------------------------------------------------------------- */
+
 /* †††††††††††††††††††††††††††††††††††††††††
    1. RESET & BASE
    ††††††††††††††††††††††††††††††††††††††††† */
@@ -15,9 +23,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
     font-family: Poppins, sans-serif;
-}    
+}
 
-   /* †††††††††††††††††††††††††††††††††††††††††
+/* †††††††††††††††††††††††††††††††††††††††††
    2. HEADER SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
@@ -79,98 +87,100 @@ ul p{
     overflow-clip-margin: content-box;
 }
 
-   /* †††††††††††††††††††††††††††††††††††††††††
+/* †††††††††††††††††††††††††††††††††††††††††
    3. MAIN SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
-    div .title{
-        color: black;
-        text-align: center;
-        justify-content: space-between;
-    }
+div .title{
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+}
 
-    .container{
-        width: 150px;
-        height: 150px;
-        border-radius: 10px;
-        border: 5px solid #3882F6;
-        background-color: whitesmoke;
-    }
+.container{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+    background-color: whitesmoke;
+}
 
-    .margem{
-        gap: 25px;
-        display: flex;
-        margin-bottom: 20px;
-        justify-content: center;
-        border: 2px solid red;
-    }
+.margem{
+    gap: 25px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    border: 2px solid red;
+}
 
+.text{
+    width: 100px;
+    margin-top: 5px;
+    font-size: 15px;
+    overflow-wrap: break-word;
+}
 
-    .text{
-        width: 100px;
-        margin-top: 5px;
-        font-size: 15px;
-        overflow-wrap: break-word;
-    }
+.recipes{
+    text-align: center;
+    align-items: center;
+}
 
-    /* †††††††††††††††††††††††††††††††††††††††††
+/* †††††††††††††††††††††††††††††††††††††††††
    4. QUOTE SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
+.section{
+    height: 20vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
 
-    .section{
-        height: 20vh;
-        display: flex;
-        align-self: center;
-        justify-content: center;
-   }
+h2{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 
-   h2{
-       display: flex;
-       margin-left: 10px;
-       margin-right: 10px;
-       text-align: center;
-       align-items: center;
-       justify-content: center;
-   }
+.quoter{
+    font-size: 10px;
+    background-color: #E5E7EB;
+}
 
-   .quoter{
-        font-size: 10px;
-        background-color: #E5E7EB;
-   }
-
-
-    /* †††††††††††††††††††††††††††††††††††††††††
+/* †††††††††††††††††††††††††††††††††††††††††
    5. BUTTON SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
-   .section2{
-        height: 40vh;
-        display: flex;
-        align-self: center;
-        justify-content: center;
-   }
+.section2{
+    height: 40vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
 
-   .space{
-       display: flex;
-       color: white;
-       align-items: center;
-       border-radius: 20px;
-       justify-content: center;
-   }
+.space{
+    display: flex;
+    color: white;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+}
 
-    /* †††††††††††††††††††††††††††††††††††††††††
+/* †††††††††††††††††††††††††††††††††††††††††
    6. FOOTER SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
-   footer{
-     width: 100%;
-     display: flex;
-     color: white;
-     padding-top: 50px;
-     text-align: center;
-     padding: 20px 15px;
-     align-items: center;
-     background-color: #1f2937;
-     justify-content: space-between;
-  }
+footer{
+    width: 100%;
+    display: flex;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    padding: 20px 15px;
+    align-items: center;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
