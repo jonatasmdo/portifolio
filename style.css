@@ -2,16 +2,21 @@
    1. RESET & BASE
    ††††††††††††††††††††††††††††††††††††††††† */
 
-*{
-    outline: 2px solid red;
-}
-
+   *{
+      font-family: "Roboto", sans-serif;
+   }
 
 /* †††††††††††††††††††††††††††††††††††††††††
    2. HEADER SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
+.body
 
+img{
+   float: right;
+   display: block;
+   margin-right: 220px;
+}
 
 /* †††††††††††††††††††††††††††††††††††††††††
    3. MAIN SECTION
@@ -36,13 +41,13 @@
    ††††††††††††††††††††††††††††††††††††††††† */
 
 footer{
-    width: 100%;
-    display: flex;
-    color: white;
-    padding-top: 50px;
-    text-align: center;
-    padding: 20px 15px;
-    align-items: center;
-    background-color: #1f2937;
-    justify-content: space-between;
+   width: 100%;
+   display: flex;
+   color: white;
+   padding-top: 50px;
+   text-align: center;
+   padding: 20px 15px;
+   align-items: center;
+   background-color: #1f2937;
+   justify-content: space-between;
 }
