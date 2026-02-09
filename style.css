@@ -74,14 +74,8 @@ ul p{
     color: white;
 }
 
-.img{
-    width: 100%; 
-    height: auto;      
-    border-radius: 10px;
-    overflow: clip;
-    margin-top: 15px;
-    justify-content: space-between;
-    overflow-clip-margin: content-box;
+img{
+   float: right;
 }
 
 /* †††††††††††††††††††††††††††††††††††††††††
