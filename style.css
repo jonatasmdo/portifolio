@@ -33,7 +33,7 @@ header{
     display: flex;
 }
 
-div h1 .logo{
+div h1{
     color: white;
     font-size: 50px;
     font-weight: bold;
@@ -53,6 +53,10 @@ nav{
     gap: 10px;
     display: flex;
     align-items: center;
+}
+
+.nav-right{
+    text-align: right;
 }
 
 ul{
