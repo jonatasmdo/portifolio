@@ -1,177 +1,35 @@
-/* --------------------------------------------------------------
-   Olá, Sr Jônatas M.D.O.! 👋
-   Este é o seu stylesheet completo – mantive tudo que já estava
-   aqui e só inseri um cabeçalho amigável pra deixar o código
-   com a sua cara. Nada de mudanças estruturais, só um toque
-   de formalidade + um slang leve pra dar aquele vibe moderna.
-   -------------------------------------------------------------- */
-
 /* †††††††††††††††††††††††††††††††††††††††††
    1. RESET & BASE
    ††††††††††††††††††††††††††††††††††††††††† */
 
-body{
-   /*margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column; */
-    display: flex;
-    margin-left: 0px;
-    margin-top: -5px;
-    align-content: center;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: Poppins, sans-serif;
+*{
+    outline: 2px solid red;
 }
+
 
 /* †††††††††††††††††††††††††††††††††††††††††
    2. HEADER SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
-header{
-    display: flex;
-}
 
-div h1{
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-nav{
-    width: 100%;
-    display: flex;
-    padding: 20px 15px;
-    align-items: center;
-    padding-bottom: 50px;
-    background-color: #1f2937;
-    justify-content: space-between;
-}
-
-.nav-links{
-    gap: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.nav-right{
-    text-align: right;
-}
-
-ul{
-    color: white;
-}
-
-button{
-    border: none;
-    height: auto;
-    color: white;
-    padding: 8px 36px;
-    border-radius: 8px;
-    background-color: #3882F6 ;
-}
-
-ul p{
-    gap: 14px;
-    display: inline-block;
-}
-
-.test{
-    color: white;
-}
-
-.img{
-    width: 100%; 
-    height: auto;      
-    border-radius: 10px;
-    overflow: clip;
-    margin-top: 15px;
-    justify-content: space-between;
-    overflow-clip-margin: content-box;
-}
 
 /* †††††††††††††††††††††††††††††††††††††††††
    3. MAIN SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
-div .title{
-    color: black;
-    text-align: center;
-    justify-content: space-between;
-}
 
-.container{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    border: 5px solid #3882F6;
-    background-color: whitesmoke;
-}
-
-.margem{
-    gap: 25px;
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: center;
-    border: 2px solid red;
-}
-
-.text{
-    width: 100px;
-    margin-top: 5px;
-    font-size: 15px;
-    overflow-wrap: break-word;
-}
-
-.recipes{
-    text-align: center;
-    align-items: center;
-}
 
 /* †††††††††††††††††††††††††††††††††††††††††
    4. QUOTE SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
-.section{
-    height: 20vh;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
 
-h2{
-    display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.quoter{
-    font-size: 10px;
-    background-color: #E5E7EB;
-}
 
 /* †††††††††††††††††††††††††††††††††††††††††
    5. BUTTON SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
-.section2{
-    height: 40vh;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
 
-.space{
-    display: flex;
-    color: white;
-    align-items: center;
-    border-radius: 20px;
-    justify-content: center;
-}
 
 /* †††††††††††††††††††††††††††††††††††††††††
    6. FOOTER SECTION
