@@ -155,21 +155,21 @@ h2{
    5. BUTTON SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
-.section2{
-   height: 40vh;
+.cta-section{
+   width: 100%;
+   height: 20vh;
    display: flex;
    align-self: center;
    justify-content: center;
 }
 
-.space{
+.cta-button{
    display: flex;
    color: white;
    align-items: center;
    border-radius: 20px;
    justify-content: center;
 }
-
 /* †††††††††††††††††††††††††††††††††††††††††
    6. FOOTER SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
