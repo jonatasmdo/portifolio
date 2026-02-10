@@ -3,11 +3,6 @@
    ††††††††††††††††††††††††††††††††††††††††† */
 
 body{
-   /*margin: 0;
-   padding: 0;
-   display: flex;
-   align-items: center;
-   flex-direction: column; */
    display: flex;
    margin-left: 0px;
    margin-top: -5px;
@@ -80,7 +75,7 @@ ul p{
    color: white;
    font-size: 30px;
    font-weight: bold;
-   margin-left: 180px;
+   margin-left: 210px;
 }
 
 .hero-content{
@@ -90,15 +85,30 @@ ul p{
 
 .hero-text{
    text-align: justify;
-   margin-top: 40px;
-   margin-left: 180px;
+   margin-top: 80px;
+   margin-left: 220px;
    color: white;
+   margin-bottom: -40px;
+}
+
+.hero-text h3{
+   font-weight: bold;
+   font-size: 40px;
 }
 
 .hero-image{
    float: right;
-   margin-right: 80px;
+   margin-right: 280px;
    margin-bottom: 60px;
+   margin-top: -140px;
+}
+
+button{
+   width: 160px;
+   height: 40px;
+   border-radius: 10px;
+   background-color: #3882F6;
+   color: white;
 }
 /* †††††††††††††††††††††††††††††††††††††††††
    3. MAIN SECTION
