@@ -185,10 +185,14 @@ h2{
 
 .cta-button{
    display: flex;
-   color: white;
    align-items: center;
-   border-radius: 20px;
+   width: 160px;
+   height: 40px;
+   border-radius: 10px;
+   background-color: #3882F6;
+   color: white;
    justify-content: center;
+   margin-top: 40px;
 }
 /* †††††††††††††††††††††††††††††††††††††††††
    6. FOOTER SECTION
