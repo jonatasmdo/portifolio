@@ -88,7 +88,15 @@ ul p{
 }
 
 .hero-text{
+   text-align: justify;
+   margin-left: 40px;
    color: white;
+}
+
+.hero-image{
+   float: right;
+   margin-right: 80px;
+   margin-bottom: 60px;
 }
 /* †††††††††††††††††††††††††††††††††††††††††
    3. MAIN SECTION
