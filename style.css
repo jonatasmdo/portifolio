@@ -30,7 +30,7 @@ div h1{
 nav{
    width: 100%;
    display: flex;
-   padding: 20px 15px;
+   padding: 20px -15px;
    align-items: center;
    padding-bottom: 50px;
    background-color: #1f2937;
@@ -44,7 +44,6 @@ nav{
    align-items: center;           
    padding: 20px -20px;            
    background-color: #1F2937;    
-   width: 100%; 
 }
 
 .nav-links {
