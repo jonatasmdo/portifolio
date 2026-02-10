@@ -43,20 +43,21 @@ nav{
 }
 
 .navbar {
-  display: flex;                 
-  justify-content: space-between;
-  align-items: center;           
-  padding: 20px 4px;            
-  background-color: #1F2937;    
-  width: 100%; 
+   width: 100%;
+   display: flex;                 
+   justify-content: space-between;
+   align-items: center;           
+   padding: 20px 4px;            
+   background-color: #1F2937;    
+   width: 100%; 
 }
 
 .nav-links {
-  list-style: none;     
-  display: flex;        
-  gap: 20px;           
-  margin: 0;            
-  padding: 0;           
+   list-style: none;     
+   display: flex;        
+   gap: 20px;           
+   margin: 0;            
+   padding: 0;           
 }
 
 .nav-links a {
@@ -70,15 +71,6 @@ ul{
    color: white;
 }
 
-/*button{
-   border: none;
-   height: auto;
-   color: white;
-   padding: 8px 36px;
-   border-radius: 8px;
-   background-color: #3882F6 ;
-}*/
-
 ul p{
    gap: 14px;
    display: inline-block;
@@ -90,7 +82,14 @@ ul p{
    font-weight: bold;
 }
 
+.hero-content{
+   width: 100%;
+   background-color: #1F2937;  
+}
 
+.hero-text{
+   color: white;
+}
 /* †††††††††††††††††††††††††††††††††††††††††
    3. MAIN SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
@@ -130,6 +129,7 @@ div .title{
    ††††††††††††††††††††††††††††††††††††††††† */
 
 .section{
+   width: 100%;
    height: 20vh;
    display: flex;
    align-self: center;
