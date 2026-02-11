@@ -74,7 +74,7 @@ ul p{
    color: white;
    font-size: 30px;
    font-weight: bold;
-   margin-left: 210px;
+   margin-left: 215px;
 }
 
 .hero-content{
@@ -120,8 +120,8 @@ div .title{
 }
 
 .project-card{
-   width: 80px;
-   height: 80px;
+   width: 140px;
+   height: 100px;
    padding: 20px;
    border: 3px solid #3882F6;
    border-radius: 10px;
