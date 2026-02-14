@@ -2,15 +2,16 @@
    1. RESET & BASE
    ††††††††††††††††††††††††††††††††††††††††† */
 
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 body{
-   display: flex;
-   margin-left: 0px;
-   margin-top: -5px;
-   align-content: center;
-   flex-direction: column;
-   justify-content: space-between;
    font-family: Poppins, sans-serif;
 }
+
 
 
 /* †††††††††††††††††††††††††††††††††††††††††
@@ -78,16 +79,17 @@ ul p{
 }
 
 .hero-content{
-   width: 100%;
-   background-color: #1F2937;  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+   padding: 80px 0;
+   background-color: #1F2937;
 }
 
 .hero-text{
    text-align: justify;
-   margin-top: 80px;
-   margin-left: 220px;
    color: white;
-   margin-bottom: -40px;
 }
 
 .hero-text h3{
@@ -96,10 +98,9 @@ ul p{
 }
 
 .hero-image{
-   float: right;
-   margin-right: 280px;
-   margin-bottom: 60px;
-   margin-top: -140px;
+   width: 400px;
+   display: block;
+   border-radius: 8px;
 }
 
 button{
@@ -135,7 +136,6 @@ div .title{
    display: flex;
    margin-bottom: 20px;
    justify-content: center;
-   border: 2px solid red;
 }
 
 .recipes{
@@ -180,6 +180,7 @@ h2{
    display: flex;
    align-self: center;
    justify-content: center;
+   background-color: #3882F6 ;
 }
 
 .cta-button{
@@ -192,6 +193,7 @@ h2{
    color: white;
    justify-content: center;
    margin-top: 40px;
+   border-color: white;
 }
 /* †††††††††††††††††††††††††††††††††††††††††
    6. FOOTER SECTION
