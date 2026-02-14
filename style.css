@@ -109,6 +109,7 @@ button{
    border-radius: 10px;
    background-color: #3882F6;
    color: white;
+   cursor: pointer;
 }
 /* †††††††††††††††††††††††††††††††††††††††††
    3. MAIN SECTION
@@ -121,8 +122,8 @@ div .title{
 }
 
 .project-card{
-   width: 140px;
-   height: 140px;
+   width: 150px;
+   height: 150px;
    padding: 20px;
    border: 3px solid #3882F6;
    border-radius: 10px;
@@ -141,6 +142,8 @@ div .title{
 .recipes{
    text-align: center;
    align-items: center;
+   padding-top: 5px;
+   padding-bottom: 10px;
 }
 
 /* †††††††††††††††††††††††††††††††††††††††††
@@ -155,12 +158,13 @@ div .title{
    justify-content: center;
 }
 
-h2{
+.quoter h2{
+   padding-top: 15px;
+   font-style: italic;
    display: flex;
    margin-left: 10px;
    margin-right: 10px;
    text-align: center;
-   align-items: center;
    justify-content: center;
 }
 
@@ -171,16 +175,17 @@ h2{
 }
 
 /* †††††††††††††††††††††††††††††††††††††††††
-   5. BUTTON SECTION
+   5. CTA SECTION
    ††††††††††††††††††††††††††††††††††††††††† */
 
 .cta-section{
-   width: 100%;
-   height: 20vh;
+   background-color: #3882F6;
+   width: 45%;
+   border-radius: 10px;
+   padding: 40px 80px;
    display: flex;
+   justify-content: space-between;
    align-self: center;
-   justify-content: center;
-   background-color: #3882F6 ;
 }
 
 .cta-button{
@@ -200,13 +205,11 @@ h2{
    ††††††††††††††††††††††††††††††††††††††††† */
 
 footer{
+   text-align: center;
    width: 100%;
    display: flex;
    color: white;
    padding-top: 50px;
-   text-align: center;
    padding: 20px 15px;
-   align-items: center;
-   background-color: #1f2937;
-   justify-content: space-between;
+   background-color: #1f2937 ;
 }
